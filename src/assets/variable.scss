@@ -1,0 +1,32 @@
+//项目提供scss全局变量
+//定义项目主题颜色
+
+$flex: flex;
+$justify-center: center;
+$items-center: center;
+
+// $header-background: #353434;
+// $header-text-color: #fff;
+
+$header-background: #fff;
+$header-text-color: #353434;
+
+$footer-background: #353434;
+$footer-text-color: #fff;
+
+$title-font-size: 1.1rem;
+$normal-text: 0.9rem;
+
+$main-color: rgb(165, 42, 218);
+
+@mixin flex {
+  display: $flex;
+}
+
+@mixin justify-center {
+  justify-content: $justify-center;
+}
+
+@mixin items-center {
+  align-items: $items-center;
+}
